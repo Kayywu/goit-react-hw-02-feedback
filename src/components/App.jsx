@@ -24,8 +24,6 @@ export const App = () => {
   const total = good + neutral + bad;
   const positivePercentage = total === 0 ? 0 : Math.round((good / total) * 100);
 
-
-
   return (
     <div
       style={{
