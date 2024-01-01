@@ -1,9 +1,9 @@
 import React from 'react';
+import './FeedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div>
-      <h2>Please leave feedback</h2>
+    <div className='feedback'>
       {options.map(option => (
         <button key={option} onClick={() => onLeaveFeedback(option)}>
           {option}

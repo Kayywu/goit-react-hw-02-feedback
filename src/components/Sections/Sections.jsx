@@ -1,6 +1,7 @@
 import React from 'react';
+import './Sections.module.css';
 
-const Section = ({ title, children }) => {
+const Sections = ({ title, children }) => {
   return (
     <div>
       <h2>{title}</h2>
@@ -9,5 +10,5 @@ const Section = ({ title, children }) => {
   );
 };
 
-export default Section;
+export default Sections;
 
